@@ -73,5 +73,106 @@
     </nav>
 </header>
 
+<main class="container mt-5">
+
+    <h1 class="text-center">Contact Rocks and Rolls</h1>
+
+    <p class="text-center mb-4">
+        Have a question or a music recommendation?
+        We'd love to hear from you.
+    </p>
+
+    <form class="mx-auto" style="max-width: 900px">
+
+        <div class="row g-4">
+
+            <!-- First Name -->
+            <div class="col-12 md:col-6">
+                <div class="form-field">
+                    <label for="firstName" class="form-label">
+                        First Name
+                    </label>
+                    <input type="text" class="form-control"
+                           id="firstName" name="firstName" required>
+                </div>
+            </div>
+
+            <!-- Last Name -->
+            <div class="col-12 md:col-6">
+                <div class="form-field">
+                    <label for="lastName" class="form-label">
+                        Last Name
+                    </label>
+                    <input type="text" class="form-control"
+                           id="lastName" name="lastName">
+                </div>
+            </div>
+
+            <!-- Email -->
+            <div class="col-12 md:col-6">
+                <div class="form-field">
+                    <label for="email" class="form-label">
+                        Email
+                    </label>
+                    <input type="email" class="form-control"
+                           id="email" name="email"
+                           placeholder="name@example.com" required>
+                </div>
+            </div>
+
+            <!-- Music Genre -->
+            <div class="col-12 md:col-6">
+                <div class="form-field">
+                    <label for="musicGenre" class="form-label">
+                        Favorite Music Genre
+                    </label>
+                    <select id="musicGenre" name="musicGenre"
+                            class="form-control">
+                        <option value="">Select a genre</option>
+                        <option value="math-rock">Math Rock</option>
+                        <option value="experimental-rock">Experimental Rock</option>
+                        <option value="post-rock">Post-Rock</option>
+                        <option value="noise-rock">Noise Rock</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- Message -->
+            <div class="col-12">
+                <div class="form-field">
+                    <label for="message" class="form-label">
+                        Your Message
+                    </label>
+                    <textarea id="message" name="message"
+                              class="form-control" rows="5"></textarea>
+                </div>
+            </div>
+
+            <!-- Consent -->
+            <div class="col-12">
+                <div class="form-field">
+                    <input type="checkbox" class="check"
+                           id="consent" name="consent" required>
+                    <label for="consent">
+                        I agree to be contacted.
+                    </label>
+                </div>
+            </div>
+
+        </div>
+
+        <button type="submit"
+                class="btn-solid theme-primary mt-5">
+            Send Message
+        </button>
+
+    </form>
+
+</main>
+
+<footer class="container mt-5 text-center">
+    <p>&copy; 2026 Rocks and Rolls.</p>
+</footer>
+
 </body>
 </html>
