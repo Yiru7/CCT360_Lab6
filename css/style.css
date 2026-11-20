@@ -1,0 +1,25 @@
+:root {
+    --bs-bg-body: #FBFAF7;
+    --bs-bg-1: #F0EEE9;
+    --bs-fg-body: #19212A;
+    --bs-fg-1: #19212A;
+    --bs-fg-2: #374151;
+    --bs-fg-3: #374151;
+    --bs-heading-color: #19212A;
+    --bs-body-font-family: system-ui, -apple-system, "Segoe UI", Arial, sans-serif;
+    --bs-body-font-size: 1.0625rem;
+    --bs-body-line-height: 1.7;
+    --bs-primary-base: #843C28;
+    --bs-primary-bg: #843C28;
+    --bs-primary-fg: #843C28;
+    --bs-primary-fg-emphasis: #662C1E;
+    --bs-primary-border: #843C28;
+    --bs-primary-focus-ring: #843C28;
+    --bs-primary-contrast: #FFFFFF;
+}
+
+.btn-solid.theme-primary {
+    --bs-theme-bg: #843C28;
+    --bs-theme-border: #843C28;
+    --bs-theme-contrast: #FFFFFF;
+}
